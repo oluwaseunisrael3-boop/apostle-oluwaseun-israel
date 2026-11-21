@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Contact Apostle Oluwaseun Israel</title>
+<meta name="description" content="Contact the office of Apostle Oluwaseun Israel by email, WhatsApp or the enquiry form.">
+<meta name="theme-color" content="#1B2A4A">
+<link rel="canonical" href="https://apostleoluwaseunisrael.com/contact.html">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Apostle Oluwaseun Israel">
+<meta property="og:title" content="Contact Apostle Oluwaseun Israel"><meta property="og:description" content="Contact the office of Apostle Oluwaseun Israel by email, WhatsApp or the enquiry form.">
+<meta property="og:url" content="https://apostleoluwaseunisrael.com/contact.html"><meta property="og:image" content="https://apostleoluwaseunisrael.com/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="contact">
+<div id="site-header"></div>
+<main id="main">
+<div class="page-head"><div class="wrap"><h1>Contact</h1><p>For speaking invitations, please use the dedicated invitation form so your request is recorded and followed up.</p></div></div>
+<section class="section"><div class="wrap contact-grid"><div><ul class="contact-list"><li>Email<br><span id="c-email"></span></li>
+<li>WhatsApp<br><a class="btn btn-gold btn-sm" id="c-wa" style="margin-top:8px" href="#" target="_blank" rel="noopener">Chat on WhatsApp</a></li><li>Speaking invitations<br><a href="invite.html" style="color:var(--navy);font-weight:600">Invite Apostle Israel</a></li></ul></div>
+<div id="contact-wrap"><form class="form" id="contact-form" novalidate><div id="c-err"></div>
+<div class="field"><label for="c-name">Full name <span class="req">*</span></label><input id="c-name" autocomplete="name"><p class="err" id="ce-name"></p></div>
+<div class="fgrid two"><div class="field"><label for="c-mail">Email address <span class="req">*</span></label><input id="c-mail" type="email" autocomplete="email"><p class="err" id="ce-mail"></p></div><div class="field"><label for="c-phone">Phone or WhatsApp</label><input id="c-phone" type="tel" autocomplete="tel"></div></div>
+<div class="field"><label for="c-subject">Subject <span class="req">*</span></label><input id="c-subject"><p class="err" id="ce-subject"></p></div>
+<div class="field"><label for="c-msg">Message <span class="req">*</span></label><textarea id="c-msg" maxlength="4000"></textarea><p class="err" id="ce-msg"></p></div>
+<input class="hp" type="text" id="hp" tabindex="-1" autocomplete="off" aria-hidden="true"><div id="ts-contact"></div><div><button class="btn btn-gold" type="submit" id="c-btn">Send message</button></div></form></div></div></section>
+</main>
+<div id="site-footer"></div>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="config.js"></script>
+<script src="site.js"></script>
+</body>
+</html>
